@@ -1,10 +1,8 @@
 const skills = [
-  { name: "HTML", level: 95, desc: "Semantic markup and accessible structure." },
-  { name: "CSS", level: 90, desc: "Responsive layouts and visually appealing interfaces." },
-  { name: "JavaScript", level: 85, desc: "Interactive and dynamic web functionality." },
-  { name: "Java", level: 80, desc: "Backend systems with clean, efficient, secure code." },
-  { name: "React", level: 82, desc: "Modern component-based UIs at scale." },
-  { name: "TypeScript", level: 78, desc: "Type-safe, maintainable applications." },
+  { name: "HTML", desc: "Semantic markup and accessible structure." },
+  { name: "CSS", desc: "Responsive layouts and visually appealing interfaces." },
+  { name: "JavaScript", desc: "Interactive and dynamic web functionality." },
+  { name: "Java", desc: "Backend systems with clean, efficient, secure code." },
 ];
 
 const Skills = () => (
@@ -25,17 +23,8 @@ const Skills = () => (
             key={s.name}
             className="p-6 rounded-2xl bg-card border border-border hover:border-accent/50 hover:-translate-y-1 transition-smooth shadow-card"
           >
-            <div className="flex items-baseline justify-between mb-2">
-              <h3 className="font-display text-2xl font-bold">{s.name}</h3>
-              <span className="text-accent font-mono text-sm">{s.level}%</span>
-            </div>
-            <p className="text-muted-foreground text-sm mb-4 min-h-[40px]">{s.desc}</p>
-            <div className="h-2 rounded-full bg-secondary overflow-hidden">
-              <div
-                className="h-full gradient-warm rounded-full transition-all duration-1000"
-                style={{ width: `${s.level}%` }}
-              />
-            </div>
+            <h3 className="font-display text-2xl font-bold mb-2">{s.name}</h3>
+            <p className="text-muted-foreground text-sm">{s.desc}</p>
           </div>
         ))}
       </div>

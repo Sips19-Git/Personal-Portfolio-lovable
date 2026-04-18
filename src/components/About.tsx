@@ -36,18 +36,6 @@ const About = () => (
           </p>
         </div>
 
-        <div className="grid grid-cols-3 gap-4 mt-8">
-          {[
-            { n: "20+", l: "Projects" },
-            { n: "2+", l: "Years Coding" },
-            { n: "10+", l: "Technologies" },
-          ].map((s) => (
-            <div key={s.l} className="text-center p-4 rounded-2xl bg-card border border-border">
-              <div className="font-display text-3xl font-bold gradient-text">{s.n}</div>
-              <div className="text-xs text-muted-foreground mt-1">{s.l}</div>
-            </div>
-          ))}
-        </div>
       </div>
     </div>
   </section>

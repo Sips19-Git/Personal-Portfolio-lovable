@@ -1,8 +1,4 @@
-const skills = [
-  "HTML5", "CSS3", "JavaScript", "TypeScript", "React", "Node.js",
-  "Java", "Python", "Tailwind CSS", "Git", "MySQL", "REST APIs",
-  "Responsive Design", "Figma", "Next.js",
-];
+const skills = ["HTML", "CSS", "JavaScript", "Java"];
 
 const SkillsBanner = () => {
   return (
