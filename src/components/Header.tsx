@@ -29,7 +29,7 @@ const Header = () => {
     >
       <div className="flex items-center justify-between px-5 py-2">
         <a href="#home" className="font-display text-lg font-bold gradient-text tracking-tight">
-          Siphiwe.
+          Personal Portfolio
         </a>
 
         <nav className="hidden md:flex items-center gap-1">

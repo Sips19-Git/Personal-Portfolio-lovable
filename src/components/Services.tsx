@@ -22,9 +22,6 @@ const Services = () => (
   <section id="services" className="py-24 px-6 bg-secondary/30">
     <div className="container mx-auto">
       <div className="text-center mb-14">
-        <p className="text-accent font-medium tracking-widest text-sm uppercase mb-3">
-          What I Do
-        </p>
         <h2 className="font-display text-4xl md:text-5xl font-bold">
           My <span className="gradient-text">Services</span>
         </h2>
